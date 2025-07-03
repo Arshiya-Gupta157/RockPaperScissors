@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1> Rock Paper Scissors</h1>
+    <div class="firstPart">
+        <p>Choose the Number of Rounds</p>
+        <div class="rounds">
+            <div class="round" id="r1">5</div>
+            <div class="round" id="r2">10</div>
+            <div class="round" id="r3">15</div>
+        </div>
+    </div>
+    <div class="secondPart hidden">
+        <div class="choices">
+            <div class="choice" id="rock">
+                <img src="./images/rock.png" alt="rock">
+            </div>
+            <div class="choice" id="paper">
+                <img src="./images/paper.png" alt="paper">
+            </div>
+            <div class="choice" id="scissors">
+                <img src="./images/scissors.png" alt="scissors">
+            </div>
+        </div>
+        <div class="scoreBoard">
+            <div class="score">
+                <p id="userScore">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p id="compScore">0</p>
+                <p>Computer</p>
+            </div>
+        </div>
+        <div class="msgContainer">
+            <p id="msg">Play Your Move</p>
+        </div>
+    </div>
+    
+</body>
+<!-- <script src="./app.js"></script> -->
+<script src="./app2.js"></script>
+
+</html>
