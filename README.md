@@ -47,32 +47,4 @@ rock-paper-scissors/
 
 ---
 
-### 📸 Preview
-
-> Add screenshots or a short demo gif here once pushed to GitHub
-> Example:
-> ![Game Preview](./screenshots/demo.png)
-
----
-
-### ✅ Future Improvements
-
-* Add "Play Again" button
-* Improve responsiveness for mobile view
-* Add animations/sound effects for clicks and wins
-* Keep score history
-
----
-
-### 📌 How to Run
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/yourusername/rock-paper-scissors.git
-```
-
-2. Open `index.html` in your browser.
-
----
 
